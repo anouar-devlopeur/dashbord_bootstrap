@@ -1,0 +1,46 @@
+.bi-database::before{
+margin-right: 1rem;
+font-size: 2rem;
+}
+/* .bi-database{
+    rotate: 360deg;
+    transition: 1s;
+    
+} */
+.small-sidebar  .bi-database{
+    margin-top: 2.5rem;
+}
+
+.bi-list::before{
+    transform: scaleX(1.4);
+    font-size: 2rem;
+}
+.mybtn:hover{
+    border: 1px solid white;
+}
+/* sidebar */
+.sidebar{
+width: 280px;
+transition: 0.2s;
+}
+.small-sidebar{
+    width: 77px;
+}
+.small-sidebar .sidebar-text{
+    display: none;
+}
+ .small-sidebar .bi-database::before{
+    /* content: "\F5D3"; */
+    /* rotate: 360deg; */
+    /* transform: rotateY(360deg);
+    transition: 0.8s; */
+    margin-left: 0.5rem;
+ 
+} 
+
+.bi-x-circle{
+    font-size: 1.3rem;
+}
+.small-sidebar .bi-x-circle::before {
+    content: "\F134";
+}
